@@ -1,7 +1,7 @@
 <header>
 <nav class="transparent text-black">
    <div class="nav-wrapper">
-      <a href="{{route('index')}}" class="brand-logo left">LifeHacks</a>
+      <a href="{{route('index')}}" class="brand-logo left custom">LifeHacks</a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger right hide-on-med-and-up">
       <i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-small-and-down customNav">
@@ -23,20 +23,28 @@
 	</ul>
 	
 	<div class="container">
-		<h1 class="font-effect-shadow-multiple customHeader">Geeks Life Hacks!</h1>
+		<h1 class="font-effect-shadow-multiple customHeader">Geeks Life Hacks!!!😎</h1>
 		<div class="container customIcon">
-		   <form action="{{route('post.search')}}" method="get">
+		  <div class="row">
+		  
+		    <div class="col s8">
+		     <form action="{{route('post.search')}}" method="get">
 			  <div class="input-field">
-				  <input id="search" type="search" name="query" required>
-				  <label class="label-icon" for="search">
-				        <i class="material-icons">search</i>
-				  </label>
-				  <button type="submit" 
-				     class="waves-effect waves-light blue lighten-2">
-				      Search <i class="material-icons prefix">search</i>
-				  </button>
+			      <i class="material-icons prefix">search</i>
+				  <input id="search" type="search" 
+				  name="query" placeholder="Search every post....." required>
 			  </div>
+			 </div>
+			 
+			 <div class="col s4">
+			     <button type="submit" 
+		class="waves-effect btn waves-light blue lighten-2 customBtn">
+			         search
+			     </button>
+			 </div>
+			 
 		   </form>
 		</div>
+	  </div>
 	</div>
 </header>

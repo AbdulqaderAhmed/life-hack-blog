@@ -1,11 +1,11 @@
 @extends("layouts.app")
 
 @section("content")
-	<div class="container">
+	<div class="container customPost">
 	  <div class="row">
 	    
 	      @foreach($post as $items)
-	       <div class="col s12 m3">
+	       <div class="col l2 m3 s6">
 			<div class="card small">
 				<div class="card-image waves-effect waves-block waves-light">
 					<img class="activator" 
@@ -14,7 +14,9 @@
 					<span class="card-title">{{$items->title}}</span>
 				</div>
 				<div class="card-content">
-					<p><a href="{{route('post.show', $items->id)}}">Read page....</a></p>
+					<p>click here if u are interested by the article
+	           <a href="{{route('post.show', $items->id)}}">Read page....</a>
+					</p>
 				</div>
 				<div class="card-reveal">
 					<span class="card-title grey-text text-darken-4">
@@ -27,6 +29,5 @@
 		   </div>
 		  @endforeach
 	   </div>
-	   
 	</div>
 @endsection

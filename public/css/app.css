@@ -20,15 +20,13 @@ html{
   height: 100%;
 }
 
-.customHeader{
+.customHeader, .custom{
    font-family: "Rancho", serif;
    text-shadow: 4px 4px 4px #aaa;
    text-align: center;
 }
 
-.customIcon{
-   margin-bottom: 10px;
-}
+
 
 .customNav{
    padding-right: 400px;
@@ -53,12 +51,26 @@ main {
    background-position: center;
    height: 1100px;
    text-align:center;
+   
 }
 
-#title{
+#title1{
    padding-top: 200px;
 }
 
 .parallax-container{
     height: 400px;
+}
+
+#mybtn{
+   display: none;
+}
+
+.customBtn{
+    margin-top: 17px;
+}
+
+.customPost{
+   margin-top: 10px;
+   margin-bottom: 50px;
 }

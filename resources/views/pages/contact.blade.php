@@ -4,7 +4,7 @@
 
   <div class="section white">
   	  <div class="row container center">
-  	    <p class="red-text">got a question?</p>
+  	    <p class="red-text" id="upward">got a question?</p>
   		<h2 class="header">Contact LifeHacks</h2>
  		<h4 class="grey-text text-darken-3 lighten-3 center">
   			We let you know us
@@ -73,5 +73,7 @@
   		
     </div>
   </div>
+  
+  
 
 @endsection

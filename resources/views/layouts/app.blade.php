@@ -8,10 +8,6 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Laravel') }}</title>
-
-    <!-- Scripts -->
-    <script src="/js/materialize.min.js"></script>
-    <script src="/js/app.js"></script>
     
     <!-- style -->
     <link rel="stylesheet" href="/css/materialize.min.css">
@@ -25,7 +21,12 @@
 <body>
     <main>
       @yield('content')
+      @include("layouts.scrollUp")
     </main>
 </body>
     @include("layouts.footer")
+    
+<!-- Scripts -->
+<script src="/js/materialize.min.js"></script>
+<script src="/js/app.js"></script>
 </html>
