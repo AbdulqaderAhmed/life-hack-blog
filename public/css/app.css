@@ -1,0 +1,21 @@
+.customLogin{
+	width: 100%;
+	margin-top: 100px;
+}
+
+nav{
+  width: 100%;
+}
+
+body{
+  background-image: url("../images/city.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100%;
+}
+
+html{
+  height: 100%;
+}
