@@ -7,7 +7,7 @@ nav{
   width: 100%;
 }
 
-body{
+header{
   background-image: url("../images/city.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,4 +18,47 @@ body{
 
 html{
   height: 100%;
+}
+
+.customHeader{
+   font-family: "Rancho", serif;
+   text-shadow: 4px 4px 4px #aaa;
+   text-align: center;
+}
+
+.customIcon{
+   margin-bottom: 10px;
+}
+
+.customNav{
+   padding-right: 400px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #cccccc;
+  }
+
+main {
+    flex: 1 0 auto; 
+}
+
+.customAbout{
+   background-image: url("../images/city.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   height: 1100px;
+   text-align:center;
+}
+
+#title{
+   padding-top: 200px;
+}
+
+.parallax-container{
+    height: 400px;
 }

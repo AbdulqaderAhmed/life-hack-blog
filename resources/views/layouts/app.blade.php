@@ -17,13 +17,15 @@
     <link rel="stylesheet" href="/css/materialize.min.css">
     <link rel="stylesheet" href="/css/app.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple"
+       rel="stylesheet">
     
 </head>
-<body>
     @include("layouts.header")
+<body>
     <main>
       @yield('content')
     </main>
-
 </body>
+    @include("layouts.footer")
 </html>

@@ -3,14 +3,12 @@
 @section("content")
 	<div class="container">
 	  <div class="row">
-	    
+	    <h5>Search result:</h5>
 	      @foreach($post as $items)
-	       <div class="col s12 m3">
+	      <div class="col s12 m4">
 			<div class="card small">
 				<div class="card-image waves-effect waves-block waves-light">
-					<img class="activator" 
-					  src="{{asset('/images/'.$items->image_path)}}"
-					    height="200px">
+					<img class="activator" src="{{asset('/images/'.$items->image_path)}}">
 					<span class="card-title">{{$items->title}}</span>
 				</div>
 				<div class="card-content">
@@ -27,6 +25,5 @@
 		   </div>
 		  @endforeach
 	   </div>
-	   
 	</div>
 @endsection
